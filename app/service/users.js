@@ -74,6 +74,7 @@ class UserService extends Service {
   }
 
   async getContent() {
+    console.log('测试')
     return {content: 'content11',}
   }
 }
