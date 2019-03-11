@@ -6,5 +6,6 @@
 module.exports = app => {
   
   require('./router/user/user')(app);
+  require('./router/lodash/lodash')(app);
 
 };
